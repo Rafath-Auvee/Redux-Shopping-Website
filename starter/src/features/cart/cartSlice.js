@@ -38,6 +38,7 @@ const cartSlice = createSlice({
       state.total = total;
     },
   },
+  
 });
 
 export const { clearCart, removeItem, increase, decrease, calculateTotals } =
