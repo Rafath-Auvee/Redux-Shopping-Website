@@ -1,10 +1,11 @@
 import Navbar from "./components/Navbar";
-import { useDispatch, useSelector } from "react-redux";
-import React, { useState } from "react";
+import CartContainer from './components/CartContainer';
+
 function App() {
   return (
     <main>
       <Navbar />
+      <CartContainer />
     </main>
   );
 }
